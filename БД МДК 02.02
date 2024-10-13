@@ -1,0 +1,7 @@
+word = input("Введите слово: ") 
+letter_count = 0
+for letter in word:
+ if letter.isalpha(): 
+  letter_count += 1
+
+print(f"Количество букв в слове '{word}': {letter_count}")
